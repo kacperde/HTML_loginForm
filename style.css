@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.05em;
+
+}
+.form_content {
+    width: 40vh;
+    margin-top: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+form {
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 3fr 3fr ;
+}
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 0.2em;
+}
+input:hover {
+    background-color: #f2f2f2;
+}
+button {
+    background-color: #e4e5e6;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 0.2em;
+    width: 40%;
+} button:hover
+{
+    background-color: #bababa;
+    cursor: pointer;
+}
